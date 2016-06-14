@@ -8,6 +8,11 @@ that meets Alice's requirements:
 - Spend the least amount of money possible.
 - Print out total weight of all computers and keyboards.
 
+### Install & Run
+```
+godep restore && go build && ./alfred
+```
+
 ### Usage
 
 ```
@@ -69,4 +74,6 @@ Usage of ./alfred:
 +--------------------------------+-----------------------+-------------------+
 ```
 ### Dependencies
-- Tablewriter: `go get  github.com/olekukonko/tablewriter`
+- godep: `go get github.com/tools/godep` 
+- tablewriter: `go get  github.com/olekukonko/tablewriter`
+- httpmock: `go get github.com/jarcoal/httpmock`
